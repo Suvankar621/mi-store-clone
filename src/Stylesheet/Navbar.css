@@ -1,0 +1,38 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 1vmax;
+ 
+}
+.navlinks{
+    color: rgb(41, 39, 39);
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1vmax;
+    font-weight: 500;
+}
+.logo{
+    background-color: orangered;
+    width: 58px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    right: 2vmax;
+    cursor: pointer;
+
+}
+.navlinks:hover{
+    color: orangered;
+    text-decoration: none;
+}
+#logoimage {
+    transition:all 0.2s;
+    transform: translateX(-58px);
+}
+#logoimage:hover{
+    transform: translateX(0px);
+}

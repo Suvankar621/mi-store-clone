@@ -1,0 +1,22 @@
+.Videocard{
+    width:30vmax;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0.5vmax;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+.videos{
+    display: flex;
+}
+.Videocard:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53,53,53,0.363);
+
+}
